@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>The Invisible Spotlight</title>
+    <script src="p5.js"></script> 
+    <script src="/socket.io/socket.io.js"></script>
+    <style>
+      body { margin: 0; padding: 0; background: #000; color: #0f0; font-family: monospace; overflow: hidden; }
+      #ui { 
+        position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); 
+        text-align: center; z-index: 999; width: 80%;
+      }
+      h1 { font-size: 24px; margin-bottom: 10px; color: #fff; }
+      .intro { 
+        font-size: 14px; color: #aaa; margin-bottom: 30px; line-height: 1.5; 
+        border-left: 2px solid #0f0; padding-left: 15px; text-align: left;
+      }
+      button { 
+        background: #000; color: #0f0; border: 1px solid #0f0; padding: 15px 30px; 
+        font-size: 16px; font-family: monospace; cursor: pointer; margin: 10px; display: block; width: 100%;
+      }
+      button:hover { background: #0f0; color: #000; }
+    </style>
+  </head>
+  <body>
+    <div id="ui">
+      <h1>THE INVISIBLE SPOTLIGHT</h1>
+      <div class="intro">
+        "Our eyes are the invisible spotlights of life."<br><br>
+        This project transforms your phone into a digital eye. 
+        Tilt to focus, shake to disrupt.
+      </div>
+      <p>CHOOSE YOUR DEVICE ROLE</p>
+      <button id="btn-phone">📱 PHONE (CONTROLLER)</button>
+      <button id="btn-screen">💻 SCREEN (DISPLAY)</button>
+    </div>
+    <script src="sketch.js"></script>
+  </body>
+</html>
