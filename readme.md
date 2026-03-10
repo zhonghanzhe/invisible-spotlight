@@ -24,5 +24,5 @@
 * Developer: Hanzhe Zhong/hzhon003@gold.ac.uk, Xuan Zhu/xzhu001@gold.ac.uk
 
 ## Links
-* GitHub Repository: [Link to your repo]
-* Live Demo: [Link to your Render deployment]
+* GitHub Repository: [https://github.com/zhonghanzhe/invisible-spotlight]
+* Live Demo: [https://invisible-spotlight.onrender.com]
